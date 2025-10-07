@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Dhananjay</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+    
+    <style>
+        body { 
+            background: #f3f4f6;
+        }
+        .unicode-text { 
+            font-family: 'Arial', 'Segoe UI Symbol', 'Noto Sans', sans-serif; 
+        }
+
+        .photo-hover {
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+        .photo-hover:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.35);
+        }
+
+        .btn-hover {
+            transition: all 0.3s ease;
+        }
+        .btn-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+
+        .btn-hover i {
+            transition: transform 0.3s ease;
+        }
+        .btn-hover:hover i {
+            transform: translateY(-3px);
+        }
+
+        .transition-smooth {
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+
+    <div class="w-full max-w-md mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden p-8 transition-smooth">
+
+        <!-- Heading -->
+        <div class="text-center mb-4 unicode-text">
+            <h1 class="text-4xl font-extrabold text-black transition-smooth">
+                Dr.<span class="text-blue-600">🩺</span>Ai.
+            </h1>
+        </div>
+
+        <!-- Circular Photo with Hover Glow -->
+        <div class="text-center mb-4">
+            <img src="https://i.ibb.co/YBGGnfKr/cropped-circle-image-1.png" 
+                 alt="Dhananjay" 
+                 class="w-44 h-44 mx-auto rounded-full border-4 border-white shadow-xl photo-hover">
+        </div>
+
+        <!-- Contact Buttons -->
+        <div class="space-y-4 unicode-text">
+
+            <a href="https://wa.me/919219671761" target="_blank" class="flex items-center justify-center w-full px-5 py-3 font-semibold text-white bg-gradient-to-r from-green-400 to-green-600 rounded-full shadow-md btn-hover">
+                <i class="fab fa-whatsapp text-2xl mr-3"></i>
+                <span>𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩</span>
+            </a>
+
+            <a href="https://t.me/cytoaispecialist" target="_blank" class="flex items-center justify-center w-full px-5 py-3 font-semibold text-white bg-gradient-to-r from-blue-400 to-blue-600 rounded-full shadow-md btn-hover">
+                <i class="fab fa-telegram-plane text-2xl -ml-1 mr-3"></i>
+                <span>𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦</span>
+            </a>
+
+            <a href="https://instagram.com/mbbs66_ms" target="_blank" class="flex items-center justify-center w-full px-5 py-3 font-semibold text-white bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-full shadow-md btn-hover">
+                <i class="fab fa-instagram text-2xl mr-3"></i>
+                <span>𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦</span>
+            </a>
+
+            <a href="mailto:miniaccesssurg@gmail.com" class="flex items-center justify-center w-full px-5 py-3 font-semibold text-white bg-gradient-to-r from-red-500 to-red-700 rounded-full shadow-md btn-hover">
+                <i class="fa-brands fa-google text-2xl mr-3"></i>
+                <span>𝐦𝐢𝐧𝐢𝐚𝐜𝐜𝐞𝐬𝐬𝐬𝐮𝐫𝐠@𝐠𝐦𝐚𝐢𝐥.𝐜𝐨𝐦</span>
+            </a>
+
+            <a href="mailto:immenseaiexperts@gmail.com" class="flex items-center justify-center w-full px-5 py-3 font-semibold text-white bg-gradient-to-r from-red-600 to-red-800 rounded-full shadow-md btn-hover">
+                <i class="fa-brands fa-google text-2xl mr-3"></i>
+                <span>𝐢𝐦𝐦𝐞𝐧𝐬𝐞𝐚𝐢𝐞𝐱𝐩𝐞𝐫𝐭𝐬@𝐠𝐦𝐚𝐢𝐥.𝐜𝐨𝐦</span>
+            </a>
+
+        </div>
+
+        <!-- Bottom Text -->
+        <div class="mt-8 text-center unicode-text">
+            <p class="text-2xl font-extrabold text-black transition-smooth">! Stay Connected !</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
